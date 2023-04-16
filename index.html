@@ -4,88 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <title>Stream TV and Movies Live and Online</title>
   </head>
   <body>
     <!-- this is the header -->
-    <header>
+    <header class="header">
       <nav>
         <ul>
           <li>
-            <button>log in</button>
+            <button class="login-btn">log in</button>
           </li>
         </ul>
       </nav>
       <div>
         <h4>Try up to a month free</h4>
         <img src="./images/logo.png" alt="Hulu" loading="lazy" />
-        <div>Watch thousands of TV shows and movies</div>
-        <div>
+        <div class="header-text-1">Watch thousands of TV shows and movies</div>
+        <div class="header-text-2">
           HBO Max™, SHOWTIME®, CINEMAX® and STARZ® available as add-ons.
         </div>
-        <button>Start your free trial</button>
-        <div>Free trial for you and & eligible returning subscribers only</div>
+        <button class="btn btn-cta">Start your free trial</button>
+        <div class="legal-text">
+          Free trial for you and & eligible returning subscribers only
+        </div>
       </div>
     </header>
     <!-- End of the header -->
 
     <!-- this is my sub section -->
-    <section>
+    <section class="Sub-header">
       <img src="./images/logos.png" alt="channel logos" loading="lazy" />
       <div>
         <h4>Bundle with any hulu plan & save</h4>
         <h3>Get Hulu , Disney+, and ESPN+</h3>
-        <a href="#">details</a>
+        <a href="#" class="sub-link1">details</a>
       </div>
       <div>
-        <a href="#">Get bundle</a>
-        <a href="#">Term and conditions apply</a>
+        <a href="#" class="btn btn-outline">Get bundle</a>
+        <a href="#" class="sub-link2">Term and conditions apply</a>
       </div>
     </section>
     <!-- End of sub a=-heading section -->
-    <section>
+    <section class="categories">
       <h4>Included in all plans</h4>
       <div>All the TV you love</div>
-      <div>
+      <div class="sub-text">
         Stream full seasons of exclusive series, current-season episodes, hit
         movies, hulu originals , kid shows and many more
       </div>
       <div>
         <!-- categories start -->
         <!-- First cover -->
-        <div>
-          <div></div>
-          <div>
-            <div>Past and current seasons</div>
+        <div class="cover1">
+          <div class="cover-grad"></div>
+          <div class="cover-text">
+            <div class="sub-title">Past and current seasons</div>
             <h3>TV Shows</h3>
           </div>
         </div>
         <!-- end of first cover -->
         <!-- second cover start -->
-        <div>
-          <div></div>
-          <div>
-            <div>New & classic</div>
+        <div class="cover2">
+          <div class="cover-grad"></div>
+          <div class="cover-text">
+            <div class="sub-title">New & classic</div>
             <h3>Movies</h3>
           </div>
           <!-- end of second cover -->
           <!-- third cover start -->
         </div>
-        <div>
-          <div></div>
-          <div>
-            <div>Groundbreaking</div>
+        <div class="cover3">
+          <div class="cover=grad"></div>
+          <div class="cover-text">
+            <div class="sub-title">Groundbreaking</div>
             <h3>Hulu Originals</h3>
           </div>
         </div>
         <!-- end of third cover -->
         <!-- Start of fourth cover -->
         <div>
-          <div>
-            <div></div>
-            <div>
-              <div>Add-on</div>
+          <div class="cover4">
+            <div class="cover-grad"></div>
+            <div class="cover-text">
+              <div class="sub-title">Add-on</div>
               <h3>Premium</h3>
             </div>
             <!-- End of fourth cover -->
@@ -95,15 +97,15 @@
     </section>
     <!-- end of categories -->
     <!-- live section -->
-    <section>
-      <div>
+    <section class="live">
+      <div class="live-border">
         <h4>HULU + Live TV</h4>
-        <div>Live TV makes it better</div>
-        <div>
+        <div class="text-xl">Live TV makes it better</div>
+        <div class="sub-text">
           Make the switch from cabe.Get 75+ top channels with your favorite live
           sports,news, and events - plus the entire hulu streaming library.
         </div>
-        <div>
+        <div class="legal-text">
           Live TV plan required.Regional restrictions, blackouts and additional
           terms apply.See details
         </div>
@@ -112,28 +114,44 @@
     </section>
     <!-- end of live section -->
     <!-- sports section -->
-    <section>
-      <div>
-        <div>Live sports</div>
-        <div>
+    <section class="live-sports">
+      <div class="live-sports-content">
+        <div class="text-xl">Live sports</div>
+        <div class="sub-text">
           Catch your games at home or on the go. Stream live games from major
           college and pro leagues including the NCAA®, NBA, NHL, NFL, and more.
         </div>
 
-        <div>
-          <img src="./images/live-sports-logo-1.png" alt="logo1" />
+        <div class="live-sports-logos">
+          <img
+            src="./images/live-sports-logo-1.png"
+            alt="logo1"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img src="./images/live-sports-logo-2.png" alt="logo2" />
+          <img
+            src="./images/live-sports-logo-2.png"
+            alt="logo2"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img src="./images/live-sports-logo-3.svg" alt="logo3" />
+          <img
+            src="./images/live-sports-logo-3.svg"
+            alt="logo3"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img src="./images/live-sports-logo-4.png" alt="logo4" />
+          <img
+            src="./images/live-sports-logo-4.png"
+            alt="logo4"
+            loading="lazy"
+          />
         </div>
 
-        <div>
+        <div class="legal-text">
           Live TV plan required. Regional restrictions, blackouts and additional
           terms apply. See details
         </div>
@@ -141,55 +159,62 @@
     </section>
     <!-- end of sports section -->
     <!-- footer -->
-    <div>
+    <footer class="footer">
       <div>
-        <ul>
-          <li>Browse</li>
-          <li><a href="#">Streaming library</a></li>
-          <li><a href="#">Live TV</a></li>
-          <li><a href="#">Live News</a></li>
-          <li><a href="#">Live Sports</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">TV Shows</a></li>
-          <li><a href="#">Movies</a></li>
-          <li><a href="#">Originals</a></li>
-          <li><a href="#">Networks</a></li>
-          <li><a href="#">Kids</a></li>
-          <li><a href="#">FX on hulu</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Hulu, Disney+, and ESPN+</a></li>
-          <li><a href="#">Disney Bundle</a></li>
-          <li><a href="#">HBO Max</a></li>
-          <li><a href="#">Cinimax</a></li>
-          <li><a href="#">Showtime</a></li>
-          <li><a href="#">STARE💫</a></li>
-        </ul>
-        <ul>
-          <li>help</li>
-          <li><a href="#">Account & Billing</a></li>
-          <li><a href="#">Plans & Pricing</a></li>
-          <li><a href="#">Supported Devices</a></li>
-          <li><a href="#">Accessibility</a></li>
-        </ul>
-        <ul>
-          <li>About US</li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">Contract</a></li>
-        </ul>
-      </div>
-      <div></div>
+        <div class="footer-lists">
+          <ul>
+            <li class="list-head">Browse</li>
+            <li><a href="#">Streaming library</a></li>
+            <li><a href="#">Live TV</a></li>
+            <li><a href="#">Live News</a></li>
+            <li><a href="#">Live Sports</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Originals</a></li>
+            <li><a href="#">Networks</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">FX on hulu</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Hulu, Disney+, and ESPN+</a></li>
+            <li><a href="#">Disney Bundle</a></li>
+            <li><a href="#">HBO Max</a></li>
+            <li><a href="#">Cinimax</a></li>
+            <li><a href="#">Showtime</a></li>
+            <li><a href="#">STARS💫</a></li>
+          </ul>
+          <ul>
+            <li class="list-head">help</li>
+            <li><a href="#">Account & Billing</a></li>
+            <li><a href="#">Plans & Pricing</a></li>
+            <li><a href="#">Supported Devices</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+          <ul>
+            <li class="list-head">About US</li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Contract</a></li>
+          </ul>
+        </div>
+        <div class="divider"></div>
 
-      <div>
-        <a href="#"><img src="./images/facebook.svg" alt="facebook" /></a>
-        <a href="#"><img src="./images/youtube.svg" alt="youtube" /></a>
-        <a href="#"><img src="./images/instagram.svg" alt="instagram" /></a>
-        <a href="#"><img src="./images/twitter.svg" alt="twitter" /></a>
+        <div class="social-icon">
+          <a href="#"><img src="./images/facebook.svg" alt="facebook" /></a>
+          <a href="#"><img src="./images/youtube.svg" alt="youtube" /></a>
+          <a href="#"><img src="./images/instagram.svg" alt="instagram" /></a>
+          <a href="#"><img src="./images/twitter.svg" alt="twitter" /></a>
+        </div>
       </div>
-    </div>
     </footer>
     <!-- end of footer -->
+    <div class="modal">
+      <div class="modal-box">
+      <div class="modal-footer"></div>
+      <img class="close" src="./images/close.svg" alt="close" />
+      </div>
+    </div>
   </body>
 </html>
